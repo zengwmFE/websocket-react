@@ -1,0 +1,108 @@
+.chatroom__container {
+  width: 60%;
+  height: calc(100vh - 50px);
+  margin: 0 auto;
+  border: 1px solid #666;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.chatroom__userMsg {
+  width: 80px;
+  height: 100%;
+  background: #666;
+}
+.chatroom__userMsg img {
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.chatroom__userchat {
+  background: #fff;
+  width: 200px;
+  height: 100%;
+  padding-top: 50px;
+  border-right: 1px solid #ccc;
+}
+.chatroom__single {
+  font-size: 12px;
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.chatroom__single img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.list__content {
+  flex: 2;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #fff;
+}
+.list__name {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  padding-left: 30px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.list__input {
+  height: 150px;
+  border-top: 1px solid #ccc;
+}
+.list__input textarea {
+  border: none;
+}
+.list__input--area {
+  height: 148px;
+  border: none;
+  background: #fff;
+}
+.list__input--area:focus {
+  outline: none;
+}
+.list__item {
+  position: relative;
+  padding: 0 20px;
+  overflow: scroll;
+}
+.list__tip {
+  position: absolute;
+  top: 10px;
+  background: #000;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.chat__userName {
+  font-size: 14px;
+  color: #999;
+}
+.chat__message {
+  width: 100px;
+  box-shadow: 1px 1px 2px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+}
+.rightLabel {
+  background: #bcee68;
+}
+.parentLabel {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: column; */
+}

@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100vh;
+}
+.app__step {
+  width: 50%;
+}
+.app__input {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app_btn {
+  margin-top: 50px;
+}
