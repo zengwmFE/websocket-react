@@ -1,1 +1,11 @@
 # websocket-react
+## 用到的技术
+1. react
+2. react-router
+3. hooks（当前react最火最爆的地方，当然要试试啦）
+4. redux（状态管理，immutable，sure）,也可以考虑mbox
+5. 客户端：webSocket，服务端express和ws
+6. ui框架用了一点antD
+## 开发遇到的坑
+1. hooks中，useState里面的值，似乎在闭包中不能直接获取的到：初步考虑是跟当前函数的this有关
+2. ws不能使用比如sockio的emit属性，对应的发送不同的事件，只有原生的onMesssage事件，需要用到一个标志属性来判断当前的做的操作
